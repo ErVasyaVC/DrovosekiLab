@@ -14,7 +14,7 @@ class Interface:
     def __init__(self, root: tkinter.Tk):
         self.root = root
         self.root.title("Оптимизация переработки")
-        self.root.geometry("800x700")
+        self.root.geometry("900x800")
         self.root.configure(bg="#f0f8ff")
         self.LABEL_FG = "#2e8b57"
         self.LABEL_BG = "#f0f8ff"
