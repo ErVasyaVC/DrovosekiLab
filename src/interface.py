@@ -3,6 +3,8 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
 
 from src.matrix import Matrix
